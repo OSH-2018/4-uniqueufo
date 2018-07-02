@@ -3,9 +3,9 @@
 
 -------------------------------
 ### 实验环境:  
- > - **Release : ** Ubuntu 16.04(LTS)
- > - **Kernel : **  Linux 4.13.0-45-generic  #x86_64
- > - **CPU : **  Intel(R) Core(TM) i7-6500U CPU @ 2.50GHz
+ > - Release :  Ubuntu 16.04(LTS)
+ > - Kernel :   Linux 4.13.0-45-generic  #x86_64
+ > - CPU :   Intel(R) Core(TM) i7-6500U CPU @ 2.50GHz
 ### 实验准备：
 > - 关闭KALSR
 >     -  sudo perl -i -pe 'm/quiet/ and s//quiet nokaslr/' /etc/default/grub
@@ -16,7 +16,7 @@
 >     
 > **检测实验环境是否满足**
 >  
-> ![Alt text](./2018-07-02 18-54-31屏幕截图.png)
+> ![Alt text](https://github.com/OSH-2018/4-uniqueufo/blob/master/1.png)
 
 
 ---------------------------------------------
@@ -99,7 +99,7 @@ int readbyte(int fd, unsigned long addr)//循环调用clflush_target(),speculate
 ```
 -------------------------------------------
 ### 实验结果
-![Alt text](./2018-07-02 20-19-56屏幕截图.png)
+![Alt text](https://github.com/OSH-2018/4-uniqueufo/blob/master/2.png)
 
 
 -------------------------------------------
